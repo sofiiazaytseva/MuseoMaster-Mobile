@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_add_user"
+            android:title="Add user"
+            android:icon="@drawable/baseline_person_add_24" />
+
+        <item
+            android:id="@+id/nav_add_room"
+            android:title="Add room"
+            android:icon="@drawable/round_add_home_work_24" />
+
+        <item
+            android:id="@+id/nav_user_list"
+            android:title="Users list"
+            android:icon="@drawable/outline_assignment_ind_24" />
+
+        <item
+            android:id="@+id/nav_bugs"
+            android:title="Bug reports"
+            android:icon="@drawable/baseline_bug_report_24" />
+
+
+    </group>
+
+    <group  android:checkableBehavior="single"
+        android:id="@+id/bottom">
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:tint="@color/light_green"
+            android:icon="@drawable/outline_arrow_back_24" />
+    </group>
+
+</menu>

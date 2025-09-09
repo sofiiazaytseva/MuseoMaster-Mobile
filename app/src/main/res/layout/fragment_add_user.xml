@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.AdminControllers.AddUserFragment"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="50dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Creation"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <ScrollView
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Name Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_person_add_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+
+
+            <!-- Name Text Input -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter name"
+                android:background="@drawable/text_edit"
+                android:id="@+id/name"
+                android:padding="16dp" />
+
+            <!-- Second Name Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_group_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Second Name"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Second Name Text Input -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter second name"
+                android:id="@+id/second_name"
+                android:background="@drawable/text_edit"
+                android:padding="16dp" />
+
+            <!-- Email Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_attach_email_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Email Text Input -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter email"
+                android:id="@+id/email"
+                android:background="@drawable/text_edit"
+                android:padding="16dp" />
+
+            <!-- Phone Number Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_contact_phone_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Phone Number Input -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter phone number"
+                android:id="@+id/phone"
+                android:background="@drawable/text_edit"
+                android:inputType="phone"
+                android:padding="16dp" />
+
+            <!-- Age Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textSize="16sp"
+                     />
+
+            </LinearLayout>
+
+            <!-- Age Text Input -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter age"
+                android:inputType="number"
+                android:id="@+id/age"
+                android:background="@drawable/text_edit"
+                android:padding="16dp" />
+
+            <!-- Position Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_assured_workload_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Position Combobox -->
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:spinnerMode="dropdown"
+                android:id="@+id/position"
+                android:background="@drawable/text_edit"
+                />
+
+            <!-- Password Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_key_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Password Input -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:id="@+id/password"
+                android:background="@drawable/text_edit"
+                android:padding="16dp" />
+
+            <!-- Unique Username Text -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unique Username"
+                android:textSize="16sp"
+                android:padding="16dp" />
+
+            <!-- Disabled Text Input -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="unique username"
+                android:id="@+id/username"
+                android:background="@drawable/text_edit2"
+                android:enabled="false"
+                android:padding="16dp" />
+
+            <!-- Does He Have Permissions Text with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_group_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Does He Have Permissions"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Checkbox -->
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/permission"
+                android:padding="16dp" />
+
+            <!-- Button -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create new user"
+                android:id="@+id/add_user"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/error_lbl"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="User Creation error"
+                android:textSize="17sp"
+                android:visibility="gone"
+                android:textColor="@color/error"
+                android:textStyle="bold"
+                android:padding="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

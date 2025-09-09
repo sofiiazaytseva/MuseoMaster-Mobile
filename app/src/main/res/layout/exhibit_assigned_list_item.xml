@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/item_user_background">
+
+    <ImageView
+        android:id="@+id/exhibitIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        app:tint="@color/dark_green"
+        android:src="@drawable/outline_local_library_24" />
+
+    <TextView
+        android:id="@+id/ExNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:text="Korona Faraona" />
+    <ImageView
+        android:id="@+id/curRoom"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        app:tint="@color/red"
+        android:src="@drawable/baseline_logout_24" />
+
+    <TextView
+        android:id="@+id/curRoomTV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginStart="0dp"
+        android:textStyle="bold"
+        android:text="B3" />
+    <ImageView
+        android:id="@+id/tarRoom"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        app:tint="@color/blue"
+        android:src="@drawable/baseline_login_24" />
+
+    <TextView
+        android:id="@+id/tarRoomTV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginStart="0dp"
+        android:textStyle="bold"
+        android:text="B3" />
+
+    <CheckBox
+        android:id="@+id/exCheckBox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:checked="false"
+        android:buttonTint="@color/dark_green" />
+</LinearLayout>

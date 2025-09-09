@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logoImageView" type="id" />
+    <item name="welcomeTextView" type="id" />
+    <item name="usernameLinearLayout" type="id" />
+    <item name="passwordLinearLayout" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="fragmentContainer" type="id" />
+</resources>

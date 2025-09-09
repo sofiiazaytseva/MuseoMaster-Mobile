@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/task_assigned_background"
+    android:backgroundTint="#F5DAFF">
+
+    <ImageView
+        android:id="@+id/workerIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+
+        app:tint="@android:color/holo_purple"
+        android:src="@drawable/baseline_person_24" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:gravity="left|center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:text="/@JJakubass123" />
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:id="@+id/details"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/task_assigned_background"
+        >
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:tint="@android:color/holo_purple"
+            android:src="@drawable/baseline_av_timer_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In progress"
+            android:textStyle="bold"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

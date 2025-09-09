@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/text_edit"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/icon1ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/dark_green"
+            android:src="@drawable/baseline_person_24" />
+
+        <TextView
+            android:id="@+id/name1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="Name: " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F1F1F1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/icon2ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/dark_green"
+            android:src="@drawable/baseline_group_24" />
+
+        <TextView
+            android:id="@+id/name2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="Second name: " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#F1F1F1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/icon3ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/dark_green"
+            android:src="@drawable/baseline_contact_phone_24" />
+
+        <TextView
+            android:id="@+id/phoneNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="wrap_content"
+            android:text="Phone Number:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F1F1F1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/icon4ImageView"
+            android:layout_width="wrap_content"
+            app:tint="@color/dark_green"
+            android:layout_height="wrap_content"
+            android:src="@drawable/round_add_home_work_24" />
+
+        <TextView
+            android:id="@+id/roleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="Position:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F1F1F1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/icon5ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/dark_green"
+            android:src="@drawable/baseline_blind_24" />
+
+        <TextView
+            android:id="@+id/ageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="Age:21" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/button_del_backgorund"
+            android:text="Delete"
+            />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Close" />
+
+    </LinearLayout>
+
+</LinearLayout>

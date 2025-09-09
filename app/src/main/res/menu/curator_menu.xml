@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/taskList"
+            android:title="Tasks List"
+            android:icon="@drawable/outline_assignment_ind_24" />
+
+        <item
+            android:id="@+id/taskFinished"
+            android:title="Tasks Finished"
+            android:icon="@drawable/baseline_av_timer_24" />
+        <item
+            android:id="@+id/taskAssignedTo"
+            android:title="Tasks Assigned"
+            android:icon="@drawable/baseline_more_time_24" />
+
+        <item
+            android:id="@+id/AssignTask"
+            android:title="Assign Task"
+            android:icon="@drawable/baseline_assignment_add_24" />
+
+        <item
+            android:id="@+id/nav_create_exh"
+            android:title="Create Exhibition"
+            android:icon="@drawable/baseline_add_to_queue_24" />
+        <item
+            android:id="@+id/nav_exh_list"
+            android:title="Exhibitions List"
+            android:icon="@drawable/baseline_format_list_bulleted_24" />
+        <item
+            android:id="@+id/add_exhibit"
+            android:title="Add Exhibit"
+            android:icon="@drawable/baseline_playlist_add_24" />
+        <item
+            android:id="@+id/exhibit_list"
+            android:title="Exhibits List"
+            android:icon="@drawable/baseline_list_24" />
+        <item
+            android:id="@+id/search_exhibit"
+            android:title="Search Exhibit"
+            android:icon="@drawable/baseline_search_24" />
+        <item
+            android:id="@+id/nav_bugs"
+            android:title="Bug reports"
+            android:icon="@drawable/baseline_bug_report_24" />
+
+
+    </group>
+
+    <group  android:checkableBehavior="single"
+        android:id="@+id/bottom">
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:tint="@color/light_green"
+            android:icon="@drawable/outline_arrow_back_24" />
+    </group>
+
+</menu>
